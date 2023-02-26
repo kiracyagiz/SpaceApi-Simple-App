@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mobileapp_master.ui.home.HomeFragment"
+        android:label="Characters"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.mobileapp_master.ui.home.homedetail.SecondFragment"
+        android:label="Character Detail"
+        tools:layout="@layout/fragment_second" >
+        <argument
+            android:name="character"
+            app:argType="com.example.mobileapp_master.Data.Character" />
+    </fragment>
+    <fragment
+        android:id="@+id/episodeFragment"
+        android:name="com.example.mobileapp_master.ui.episodes.EpisodeFragment"
+        android:label="Episodes"
+        tools:layout="@layout/fragment_episode" >
+        <action
+            android:id="@+id/action_episodeFragment_to_popUpFragment"
+            app:destination="@id/popUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.mobileapp_master.ui.location.LocationFragment"
+        android:label="Locations"
+        tools:layout="@layout/fragment_location" >
+        <action
+            android:id="@+id/action_locationFragment_to_locationDetail"
+            app:destination="@id/locationDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationDetail"
+        android:name="com.example.mobileapp_master.ui.location.locationdetail.LocationDetail"
+        android:label="Location Details"
+        tools:layout="@layout/fragment_location_detail" >
+        <argument
+            android:name="location"
+            app:argType="com.example.mobileapp_master.Data.Location" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.mobileapp_master.ui.onboarding.ViewPagerFragment"
+        android:label=""
+        tools:layout="@layout/fragment_view_pager2" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/popUpFragment"
+        android:name="com.example.mobileapp_master.ui.episodes.episodeDetails.PopUpFragment"
+        android:label="fragment_pop_up"
+        tools:layout="@layout/fragment_pop_up" >
+        <argument
+            android:name="episode"
+            app:argType="com.example.mobileapp_master.Data.Episode" />
+    </dialog>
+</navigation>
