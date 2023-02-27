@@ -18,15 +18,15 @@ On Board
 </h2>
 
 <p align="left">
-<img align="left" src="https://github.com/kiracyagiz/SpaceApi-Simple-App/blob/main/Design/page1.png" width="280" height="400"/>
+<img align="left" src="https://github.com/kiracyagiz/SpaceApi-Simple-App/blob/main/Design/page1.png" width="260" height="400"/>
 </p>
 
 <p align="center">
-<img align="left" src="https://github.com/kiracyagiz/SpaceApi-Simple-App/blob/main/Design/page2.png" width="280" height="400"/>
+<img align="left" src="https://github.com/kiracyagiz/SpaceApi-Simple-App/blob/main/Design/page2.png" width="260" height="400"/>
 </p>
 
 <p align="right">
-<img align="left" src="https://github.com/kiracyagiz/SpaceApi-Simple-App/blob/main/Design/page3.png" width="280" height="400"/>
+<img align="left" src="https://github.com/kiracyagiz/SpaceApi-Simple-App/blob/main/Design/page3.png" width="260" height="400"/>
 </p>
 
 
