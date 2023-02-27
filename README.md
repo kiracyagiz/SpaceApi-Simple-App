@@ -5,7 +5,7 @@
 ### - MVVM (Model, View, ViewModel)
 ### - LiveData
 ### - DataBinding
-### - Retrofit
+### - Retrofit ([Source](https://square.github.io/retrofit/))
 ### - Navigation Component(NavGraph, BottomNav)
 ### - ViewPager2(For OnBoard)
 ### - Glide ([Source](https://github.com/bumptech/glide))
